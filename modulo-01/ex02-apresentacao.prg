@@ -1,12 +1,12 @@
 FUNCTION MAIN()
-    LOCAL cNome   := "Gabriel Sabino" // Declarando vari vel
-    LOCAL cCidade := "SÆo Paulo"
+    LOCAL cNome   := "Gabriel Sabino" // Declarando variÂ vel
+    LOCAL cCidade := "SÃ£o Paulo"
     LOCAL cCurso  := "Harbour/ADVPL"
     
     hb_cdpSelect("PT850")
 
     QOut("==========================")
-    QOut("  FICHA DE APRESENTA€ÇO  ")
+    QOut("  FICHA DE APRESENTAÃ‡ÃƒO  ")
     QOut("==========================")
 
     QOut("Nome: " + cNome)
