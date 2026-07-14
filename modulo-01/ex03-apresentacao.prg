@@ -2,12 +2,12 @@ REQUEST HB_CODEPAGE_UTF8
 REQUEST HB_LANG_PT
 
 FUNCTION MAIN()
-    LOCAL cNome   := "Gabriel Sabino" // Declarando variável
-    LOCAL cCidade := "São Paulo"
+    LOCAL cNome   := "Gabriel Sabino" // Declarando vari vel
+    LOCAL cCidade := "SÆo Paulo"
     LOCAL cCurso  := "Harbour/ADVPL"
     
-    hb_cdpSelect( "UTF8" )
-    hb_langSelect( "PT" )
+    hb_cdpSelect("UTF8")
+    hb_langSelect("PT")
     
     QOut("==========================")
     QOut("  FICHA DE APRESENTAÇÃO  ")
